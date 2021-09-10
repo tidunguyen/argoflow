@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/tidunguyen/argoflow
-    targetRevision: HEAD master
+    targetRevision: HEAD@{0}
     path: distribution/kubeflow/operators/mxnet
     kustomize:
       version: v4.0.5

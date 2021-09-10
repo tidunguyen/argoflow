@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/tidunguyen/argoflow
-    targetRevision: HEAD master
+    targetRevision: HEAD@{0}
     path: distribution/cert-manager/lets-encrypt-dns-01
     kustomize:
       version: v4.0.5

@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/tidunguyen/argoflow
-    targetRevision: HEAD master
+    targetRevision: HEAD@{0}
     path: distribution/mlflow
   syncPolicy:
     automated:
