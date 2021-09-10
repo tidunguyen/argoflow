@@ -64,7 +64,7 @@ resources:
 ## Contrib
 - argocd-applications/mlflow.yaml
 - argocd-applications/experimental-pvcviewer-controller.yaml
-- argocd-applications/experimental-volumes-web-app.yaml
+# - argocd-applications/experimental-volumes-web-app.yaml
 # - argocd-applications/vscode.yaml # needs to handle pvc migrations
 # - argocd-applications/featureez.yaml
 # - argocd-applications/bigdata.yaml
