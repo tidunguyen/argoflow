@@ -6,7 +6,7 @@ resources:
 # - argocd-applications/metallb.yaml
 # - argocd-applications/rook-ceph.yaml
 # - argocd-applications/nginx.yaml
-# - argocd-applications/nvidia-gpu-operator.yaml
+- argocd-applications/nvidia-gpu-operator.yaml
 - argocd-applications/istio-operator.yaml
 - argocd-applications/istio.yaml    
 - argocd-applications/istio-resources.yaml
@@ -25,8 +25,8 @@ resources:
 # - argocd-applications/certificates-imported.yaml
 
 # Pick *one* of the following applications:  
-# - argocd-applications/oidc-auth-on-cluster-dex.yaml
-- argocd-applications/oidc-auth-on-cluster-keycloak.yaml
+- argocd-applications/oidc-auth-on-cluster-dex.yaml
+# - argocd-applications/oidc-auth-on-cluster-keycloak.yaml
 # - argocd-applications/oidc-auth-external.yaml
 
 ## Kubeflow  
@@ -62,6 +62,9 @@ resources:
 # - argocd-applications/kubecost.yaml
 
 ## Contrib
-# - argocd-applications/mlflow.yaml
-# - argocd-applications/experimental-pvcviewer-controller.yaml
-# - argocd-applications/experimental-volumes-web-app.yaml
+- argocd-applications/mlflow.yaml
+- argocd-applications/experimental-pvcviewer-controller.yaml
+- argocd-applications/experimental-volumes-web-app.yaml
+# - argocd-applications/vscode.yaml # needs to handle pvc migrations
+# - argocd-applications/featureez.yaml
+# - argocd-applications/bigdata.yaml
