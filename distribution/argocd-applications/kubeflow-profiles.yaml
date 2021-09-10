@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/tidunguyen/argoflow
-    targetRevision: HEAD@{0}
+    targetRevision: HEAD
     path: distribution/kubeflow/profiles
     kustomize:
       version: v4.0.5
